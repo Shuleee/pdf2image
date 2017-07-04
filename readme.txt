@@ -2,7 +2,7 @@
 ImageMagick
 
 1.安装brew
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 2.安装ghostscript
 brew install ghostscript
