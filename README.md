@@ -4,24 +4,30 @@
 ImageMagick
 
 #####1.安装brew
+
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 
 #####2.安装ghostscript
+
 	brew install ghostscript
 用 gs -v 查看是否成功安装
 
 #####3.link文件
+
 	brew link libpng
 
 #####4.source bash 或者 zsh
+
 	source .zshrc 
 	
 	source .bashrc
 
 #####4.5安装pkg-config
+
 	brew install pkg-config
 
 #####5.编译程序
+
 	cc -o transfer pdfTransferImage.c `pkg-config --cflags --libs MagickWand` 
 
 pdf2image.c 是需要编译的c文件名  
