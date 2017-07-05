@@ -27,4 +27,10 @@ transfer 是将要生成的文件名
 
 6.执行程序
 示例：./transfer pdfsample.pdf a.png
-即可得到
+即可得到转换出来的图片
+如需转换其中某些页数，则添加相应参数，例如./transfer pdfsample.pdf'[0-1]' a.png
+页码编号从零开始
+
+P.s：
+./transfer 完全等价与convert指令
+可以直接使用convert pdfsample.pdf 1.png
