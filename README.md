@@ -30,7 +30,7 @@ ImageMagick
 
 	cc -o transfer pdfTransferImage.c `pkg-config --cflags --libs MagickWand` 
 
-pdf2image.c 是需要编译的c文件名  
+pdfTransferImage.c 是需要编译的c文件名  
 
 transfer 是将要生成的文件名  
 
